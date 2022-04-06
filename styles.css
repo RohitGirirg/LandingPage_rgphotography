@@ -1,7 +1,7 @@
  /*Set background image according to screen resolution*/
 
     html {
-        background: url('images/rohit.webp') no-repeat center center fixed #000;
+        background: url('https://raw.githubusercontent.com/RohitGirirg/LandingPage_rgphotography/main/rohit.webp?token=GHSAT0AAAAAABTI4AEBYNO3OW5BBL4C7IWQYSNJTKQ') no-repeat center center fixed #000;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
