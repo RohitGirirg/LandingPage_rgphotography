@@ -1,0 +1,132 @@
+ /*Set background image according to screen resolution*/
+
+    html {
+        background: url('images/rohit.webp') no-repeat center center fixed #000;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        /* background-image: url('images/rohit.webp'); */
+        background-repeat: no-repeat;
+        background-size: ;
+        color: white;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 30px;
+        top: 9px;
+    }
+
+    .mid {
+
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 7px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(0, 0, 0)
+    }
+
+    .left img {
+        width: 80px;
+        display: block;
+        text-align: center;
+        filter: invert(100%);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 21px;
+        cursor: pointer;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(112, 112, 112);
+    }
+
+    .cname {
+        width: fit-content;
+    }
+
+    .container {
+        border: 4px solid rgb(0, 0, 0);
+        padding: 59px 3px;
+        margin: 36px 43px;
+        width: 586px;
+        border-radius: 30px;
+        font-weight: bolder;
+        background-color: rgb(149 149 149 / 63%);
+    }
+
+    .form-group input {
+        /* display: block; */
+        margin: 10px;
+        padding: 2px;
+        font-size: 22px;
+        border-radius: 6px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        font-weight: bolder;
+        text-align: center;
+
+    }
+
+    h1 {
+        margin-top: -35px;
+        font-size: 28px;
+        color: rgb(108 0 0);
+        font-weight: bolder;
+    }
+
+    div1 {
+        display: flex;
+    }
